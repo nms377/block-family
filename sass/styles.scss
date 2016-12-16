@@ -1,6 +1,12 @@
 // Resets, Clearfix, etc
+@import "./partials/_reset";
+@import "./partials/_clearfix";
 
 // Variables
+$dark_color: purple;
+$light_color: cornflowerblue;
+$bright_color: yellow;
+$padding: 50px;
  
 // Media Query Ranges 
  
@@ -8,7 +14,7 @@
 
 // Styles
 body{
-  background-color: orange;
+  background-color: $bright_color;
   text-align: center;
   color: #EEE;
 }
@@ -34,5 +40,5 @@ h2{
 .block_family li{
   background-color: #222;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: $padding;
 }
